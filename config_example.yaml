@@ -1,0 +1,9 @@
+adminIds:
+  - 75626351 # Val1d. Delete this line and add your IDs
+  - 0
+botApiToken: ""
+votes: # Subscribed users will be notified to vote on the provided weekday and time. For example, users will be notified at 10:00 am UTC on Satturday with the following settings
+  notifyToVoteOnDay: 5
+  notifyToVoteOnTime: "10:00"
+bannedUsers: # Just in case users will spam us with topics
+  - 0
