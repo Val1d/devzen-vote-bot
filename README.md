@@ -19,5 +19,5 @@ It is not yet possible to:
 git clone https://github.com/Val1d/devzen-vote-bot # To fetch sample configuration
 cd devzen-vote-bot
 # Don't forget to add Admins' Telegram IDs to config_example.yaml. Get them via https://t.me/getmyid_bot
-docker run -v $(pwd)/db_data:/app/db_data -v $(pwd)/config_example.yaml:/app/config.yaml -e BOT_API_TOKEN=_YOUR_BOT_API_TOKEN_ -d val1d/devzen_bot
+docker run -v $(pwd)/db_data:/app/db_data -v $(pwd)/config_example.yaml:/app/config.yaml -e BOT_API_TOKEN=_YOUR_BOT_API_TOKEN_ -d val1d/devzen-bot
 ```
